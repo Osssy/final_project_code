@@ -1,6 +1,5 @@
 //read more!
 
-
 export function readMore() {
 	const dots = document.querySelector(".dots");
 	const moreText = document.querySelector(".more");

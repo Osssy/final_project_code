@@ -1,6 +1,6 @@
 //dropdowns!
 
-/*
+
 export function dropdowns(){
 
     //Browse!
@@ -33,22 +33,22 @@ export function dropdowns(){
         }
     }
 }
-*/
 
 
 
-export function dropdown() {
-    const dropbtn = document.querySelector(".dropbtn");
-    const dropdownContent = document.querySelector(".dropdown__content");
 
-    dropbtn.addEventListener('click', toogle);
+// export function dropdown() {
+//     const dropbtn = document.querySelector(".dropbtn");
+//     const dropdownContent = document.querySelector(".dropdown__content");
 
-    function toogle() {
-        if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-        }   else {
-            dropdownContent.style.display = "block";
-        }
-    }
-}
+//     dropbtn.addEventListener('click', toogle);
+
+//     function toogle() {
+//         if (dropdownContent.style.display === "block") {
+//             dropdownContent.style.display = "none";
+//         }   else {
+//             dropdownContent.style.display = "block";
+//         }
+//     }
+// }
 

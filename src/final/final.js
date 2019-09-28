@@ -14,5 +14,7 @@ readMore();
 
 modalShelf();
 
-dropdown("dropdownCommunity");
-dropdown('dropdownBrowse');
+dropdowns();
+
+// dropdown("dropdownCommunity");
+// dropdown("dropdownBrowse");

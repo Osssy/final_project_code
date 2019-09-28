@@ -9067,8 +9067,10 @@ var browseList = document.querySelector(".browse__list");
 
 (0, _modalShelf.modalShelf)();
 
-dropdown("dropdownCommunity");
-dropdown('dropdownBrowse');
+(0, _dropdowns.dropdowns)();
+
+// dropdown("dropdownCommunity");
+// dropdown("dropdownBrowse");
 
 /***/ }),
 /* 329 */
@@ -9086,16 +9088,16 @@ dropdown('dropdownBrowse');
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.dropdown = dropdown;
+exports.dropdowns = dropdowns;
 //dropdowns!
 
-/*
-export function dropdowns(){
+
+function dropdowns() {
 
     //Browse!
 
-    const dropdownBrowse = document.querySelector(".dropdown__link-browse");
-    const browseList = document.querySelector(".browse__list");
+    var dropdownBrowse = document.querySelector(".dropdown__link-browse");
+    var browseList = document.querySelector(".browse__list");
 
     dropdownBrowse.addEventListener('click', toogleBrowse);
 
@@ -9109,8 +9111,8 @@ export function dropdowns(){
 
     //Community!
 
-    const dropdownCommunity = document.querySelector(".dropdown__link-community");
-    const communityList = document.querySelector(".community__list");
+    var dropdownCommunity = document.querySelector(".dropdown__link-community");
+    var communityList = document.querySelector(".community__list");
 
     dropdownCommunity.addEventListener('click', toogleCommunity);
 
@@ -9122,22 +9124,21 @@ export function dropdowns(){
         }
     }
 }
-*/
 
-function dropdown() {
-    var dropbtn = document.querySelector(".dropbtn");
-    var dropdownContent = document.querySelector(".dropdown__content");
+// export function dropdown() {
+//     const dropbtn = document.querySelector(".dropbtn");
+//     const dropdownContent = document.querySelector(".dropdown__content");
 
-    dropbtn.addEventListener('click', toogle);
+//     dropbtn.addEventListener('click', toogle);
 
-    function toogle() {
-        if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-        } else {
-            dropdownContent.style.display = "block";
-        }
-    }
-}
+//     function toogle() {
+//         if (dropdownContent.style.display === "block") {
+//             dropdownContent.style.display = "none";
+//         }   else {
+//             dropdownContent.style.display = "block";
+//         }
+//     }
+// }
 
 /***/ }),
 /* 331 */
@@ -9151,7 +9152,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.readMore = readMore;
 //read more!
-
 
 function readMore() {
 	var dots = document.querySelector(".dots");
